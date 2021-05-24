@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args: ['./scripts/delete-gcr-image.sh']
+  id: Deleting the old gcr images
